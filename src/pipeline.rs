@@ -36,7 +36,6 @@ impl Pipeline {
         println!("Connection closed gracefully");
         Ok(())
     }
-    
 }
 
 fn make_request(cmd_str: &str) -> Result<BytesMut, &'static str> {
